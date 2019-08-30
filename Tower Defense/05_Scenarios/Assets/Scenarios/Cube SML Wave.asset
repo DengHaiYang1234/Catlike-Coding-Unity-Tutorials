@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 692361399f7bb464e9c755a32ec7fa3e, type: 3}
+  m_Name: Cube SML Wave
+  m_EditorClassIdentifier: 
+  spawnSequences:
+  - factory: {fileID: 11400000, guid: 60e99cab2b2404abf8360652ce5b20bf, type: 2}
+    type: 0
+    amount: 10
+    cooldown: 0.5
+  - factory: {fileID: 11400000, guid: 60e99cab2b2404abf8360652ce5b20bf, type: 2}
+    type: 1
+    amount: 5
+    cooldown: 1
+  - factory: {fileID: 11400000, guid: 60e99cab2b2404abf8360652ce5b20bf, type: 2}
+    type: 2
+    amount: 1
+    cooldown: 5
